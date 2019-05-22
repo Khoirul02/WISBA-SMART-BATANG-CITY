@@ -2020,13 +2020,13 @@ section
 }
 .footer_blog_title a:hover
 {
-	color: #068A01;
+	color: #033D01;
 }
 .footer_blog_date
 {
 	font-size: 12px;
 	font-weight: 400;
-	color: #ffffff;
+	color: #033D01;
 	margin-top: 7px;
 }
 
@@ -2044,7 +2044,7 @@ section
 	float: left;
 	margin-right: 9px;
 	margin-bottom: 9px;
-	border: solid 1px #068A01;
+	border: solid 1px #033D01;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -2053,7 +2053,7 @@ section
 }
 .tag_item:hover
 {
-	background: #068A01;
+	background: #033D01;
 }
 .tag_item a
 {
