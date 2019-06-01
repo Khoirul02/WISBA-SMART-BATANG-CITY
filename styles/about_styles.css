@@ -253,7 +253,7 @@ section
 	left: 0;
 	width: 200%;
 	height: 100%;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+	background: linear-gradient(to right, #08BD02, #033D01, #08BD02);
 	z-index: -1;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -315,12 +315,12 @@ section
 {
 	position: fixed;
 	width: 100%;
-	background: rgba(54, 19, 84, 0.6);
+	background: rgba(1, 24, 0, 0.7);
 	z-index: 12;
 }
 .header.scrolled
 {
-	background: rgba(54, 19, 84, 0.85);
+	background: rgba(1, 24, 0, 0.7);
 }
 
 /*********************************
@@ -331,7 +331,7 @@ section
 {
 	width: 100%;
 	height: 36px;
-	background: #350a4e;
+	background: #068A01;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -511,7 +511,7 @@ section
 	bottom: -11px;
 	width: calc(100% + 2px);
 	height: 2px;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #068A01, #FFFFFF);
 	content: '';
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
@@ -635,7 +635,7 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #08BD02, #033D01, #08BD02);
 	z-index: 100;
 	opacity: 0;
 	visibility: hidden;
@@ -1112,7 +1112,7 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: #31124b;
+	background: #068A01	;
 }
 .footer_title
 {
@@ -1123,7 +1123,7 @@ section
 }
 
 /*********************************
-11.1 Footer - About
+13.1 Footer - About
 *********************************/
 
 .footer_about
@@ -1147,7 +1147,7 @@ section
 	display: inline-block;
 	width: 31px;
 	height: 31px;
-	border: solid 1px #fa9e1b;
+	border: solid 1px #033D01;
 	border-radius: 50%;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
@@ -1188,15 +1188,15 @@ section
 }
 .footer_social_item:hover
 {
-	background: #fa9e1b;
+	background: #068A01;
 }
 .footer_social_item:hover a i
 {
-	color: #31124b;
+	color: #ffffff;
 }
 
 /*********************************
-11.2 Footer - Blog
+13.2 Footer - Blog
 *********************************/
 
 .footer_blog
@@ -1238,18 +1238,18 @@ section
 }
 .footer_blog_title a:hover
 {
-	color: #fa9e1b;
+	color: #033D01;
 }
 .footer_blog_date
 {
 	font-size: 12px;
 	font-weight: 400;
-	color: #fa9e1b;
+	color: #ffffff;
 	margin-top: 7px;
 }
 
 /*********************************
-11.3 Footer - Tags
+13.3 Footer - Tags
 *********************************/
 
 .footer_tags
@@ -1262,7 +1262,7 @@ section
 	float: left;
 	margin-right: 9px;
 	margin-bottom: 9px;
-	border: solid 1px #fa9e1b;
+	border: solid 1px #033D01;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1271,7 +1271,7 @@ section
 }
 .tag_item:hover
 {
-	background: #fa9e1b;
+	background: #033D01;
 }
 .tag_item a
 {
@@ -1285,7 +1285,7 @@ section
 }
 
 /*********************************
-11.4 Footer - Contact Info
+13.4 Footer - Contact Info
 *********************************/
 
 .contact_info_list
@@ -1321,12 +1321,12 @@ section
 }
 
 /*********************************
-12. Copyright
+14. Copyright
 *********************************/
 
 .copyright
 {
-	background: #1f0733;
+	background: #033D01;
 }
 .copyright_content
 {
@@ -1336,7 +1336,7 @@ section
 {
 	font-size: 12px;
 	font-weight: 600;
-	color: #685677;
+	color: #ffffff;
 }
 .footer_nav_container
 {
@@ -1344,7 +1344,7 @@ section
 }
 .footer_nav
 {
-	
+
 }
 .footer_nav_list
 {
@@ -1359,7 +1359,7 @@ section
 {
 	font-size: 12px;
 	font-weight: 600;
-	color: #685677;
+	color: #ffffff;
 	text-transform: uppercase;
 	line-height: 2;
 	-webkit-transition: all 200ms ease;
@@ -1370,5 +1370,5 @@ section
 }
 .footer_nav_item a:hover
 {
-	color: #FFFFFF;
+	color: #068A01;
 }
